@@ -1,6 +1,6 @@
 /**
  * Clase principal.
- * Versión 1.0
+ * Version 1.0
  * Autor: Profesor Entorno Desarrollo
  */
 public class Game {
@@ -45,7 +45,7 @@ public class Game {
 		Move pcMove;
 
 		if (move.isUnknown()) {
-			System.out.println("Opción No Válida");
+			System.out.println("Opcion No Valida");
 			printHelp();
 			return true;
 		}
